@@ -5,13 +5,13 @@
  * 
  * Disassembling to symbolic ASL+ operators
  *
- * Disassembly of iASLwCz6nw.aml, Wed Nov 23 15:18:09 2022
+ * Disassembly of iASLBkbhMj.aml, Wed Nov 23 16:57:52 2022
  *
  * Original Table Header:
  *     Signature        "SSDT"
- *     Length           0x000005DA (1498)
+ *     Length           0x000003E1 (993)
  *     Revision         0x01
- *     Checksum         0x6E
+ *     Checksum         0x3D
  *     OEM ID           "KGP"
  *     OEM Table ID     "X299XHC"
  *     OEM Revision     0x00000000 (0)
@@ -22,10 +22,8 @@ DefinitionBlock ("", "SSDT", 1, "KGP", "X299XHC", 0x00000000)
 {
     External (_SB_.PC00.RP01, DeviceObj)
     External (_SB_.PC00.RP01.PXSX, DeviceObj)
-    External (_SB_.PC00.RP05, DeviceObj)
-    External (_SB_.PC00.RP05.PXSX, DeviceObj)
-    External (_SB_.PC00.RP07, DeviceObj)
-    External (_SB_.PC00.RP07.PXSX, DeviceObj)
+    External (_SB_.PC00.RP19, DeviceObj)
+    External (_SB_.PC00.RP19.PXSX, DeviceObj)
     External (DTGP, MethodObj)    // 5 Arguments
 
     Scope (\_SB.PC00.RP01)
@@ -111,7 +109,7 @@ DefinitionBlock ("", "SSDT", 1, "KGP", "X299XHC", 0x00000000)
         }
     }
 
-    Scope (\_SB.PC00.RP05)
+    Scope (\_SB.PC00.RP19)
     {
         Scope (PXSX)
         {
@@ -161,89 +159,6 @@ DefinitionBlock ("", "SSDT", 1, "KGP", "X299XHC", 0x00000000)
                         Buffer (0x2E)
                         {
                             "ASMedia ASM3142 #2 2x USB 3.1 Type-A External"
-                        }, 
-
-                        "AAPL,current-available", 
-                        0x0834, 
-                        "AAPL,current-extra", 
-                        0x0A8C, 
-                        "AAPL,current-in-sleep", 
-                        0x0A8C, 
-                        "AAPL,max-port-current-in-sleep", 
-                        0x0834, 
-                        "AAPL,device-internal", 
-                        Zero, 
-                        "AAPL,clock-id", 
-                        Buffer (One)
-                        {
-                             0x01                                             // .
-                        }, 
-
-                        "AAPL,root-hub-depth", 
-                        0x1A, 
-                        "AAPL,XHC-clock-id", 
-                        One, 
-                        Buffer (One)
-                        {
-                             0x00                                             // .
-                        }
-                    }
-                DTGP (Arg0, Arg1, Arg2, Arg3, RefOf (Local0))
-                Return (Local0)
-            }
-        }
-    }
-
-    Scope (\_SB.PC00.RP07)
-    {
-        Scope (PXSX)
-        {
-            Name (_STA, Zero)  // _STA: Status
-        }
-
-        Device (XHC4)
-        {
-            Name (_ADR, Zero)  // _ADR: Address
-            Method (_DSM, 4, NotSerialized)  // _DSM: Device-Specific Method
-            {
-                If ((Arg2 == 0x00020000))
-                {
-                    Return (Buffer (One)
-                    {
-                         0x03                                             // .
-                    })
-                }
-
-                Local0 = Package (0x1B)
-                    {
-                        "AAPL,slot-name", 
-                        Buffer (0x09)
-                        {
-                            "Built In"
-                        }, 
-
-                        "built-in", 
-                        Buffer (One)
-                        {
-                             0x00                                             // .
-                        }, 
-
-                        "device-id", 
-                        Buffer (0x04)
-                        {
-                             0x42, 0x21, 0x00, 0x00                           // B!..
-                        }, 
-
-                        "name", 
-                        Buffer (0x17)
-                        {
-                            "ASMedia XHC Controller"
-                        }, 
-
-                        "model", 
-                        Buffer (0x4A)
-                        {
-                            "ASMedia ASM3142 #3 1x USB 3.1 Type-A / ASM1543 1x USB 3.1 Type-C External"
                         }, 
 
                         "AAPL,current-available", 

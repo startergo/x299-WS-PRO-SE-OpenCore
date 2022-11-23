@@ -30,21 +30,6 @@ DefinitionBlock ("", "SSDT", 2, "HACK", "PCI", 0x00000000)
 			})
 		}
 	}
-	External (_SB_.PC00.CB0B, DeviceObj)
-	Device (_SB.PC00.CB0B)
-	{
-		Name (_ADR, 0x00040001)
-		Method (_DSM, 4, NotSerialized)
-		{
-			If (LEqual (Arg2, Zero)) { Return (Buffer() { 0x03 } ) }
-			Return (Package ()
-			{
-				"model", Buffer () { "Sky Lake-E CBDMA Registers" },
-				"device_type", Buffer () { "System peripheral" },
-				"AAPL,slot-name", Buffer () { "Internal@0,4,1" },
-			})
-		}
-	}
 	External (_SB_.PC00.CB0C, DeviceObj)
 	Device (_SB.PC00.CB0C)
 	{
@@ -57,6 +42,21 @@ DefinitionBlock ("", "SSDT", 2, "HACK", "PCI", 0x00000000)
 				"model", Buffer () { "Sky Lake-E CBDMA Registers" },
 				"device_type", Buffer () { "System peripheral" },
 				"AAPL,slot-name", Buffer () { "Internal@0,4,2" },
+			})
+		}
+	}
+	External (_SB_.PC00.CB0B, DeviceObj)
+	Device (_SB.PC00.CB0B)
+	{
+		Name (_ADR, 0x00040001)
+		Method (_DSM, 4, NotSerialized)
+		{
+			If (LEqual (Arg2, Zero)) { Return (Buffer() { 0x03 } ) }
+			Return (Package ()
+			{
+				"model", Buffer () { "Sky Lake-E CBDMA Registers" },
+				"device_type", Buffer () { "System peripheral" },
+				"AAPL,slot-name", Buffer () { "Internal@0,4,1" },
 			})
 		}
 	}
@@ -255,21 +255,6 @@ DefinitionBlock ("", "SSDT", 2, "HACK", "PCI", 0x00000000)
 			})
 		}
 	}
-	External (_SB_.PC00.RP03, DeviceObj)
-	Device (_SB.PC00.RP03)
-	{
-		Name (_ADR, 0x001c0002)
-		Method (_DSM, 4, NotSerialized)
-		{
-			If (LEqual (Arg2, Zero)) { Return (Buffer() { 0x03 } ) }
-			Return (Package ()
-			{
-				"model", Buffer () { "200 Series PCH PCI Express Root Port #3" },
-				"device_type", Buffer () { "PCI bridge" },
-				"AAPL,slot-name", Buffer () { "Internal@0,28,2" },
-			})
-		}
-	}
 	External (_SB_.PC00.RP01, DeviceObj)
 	Device (_SB.PC00.RP01)
 	{
@@ -282,6 +267,21 @@ DefinitionBlock ("", "SSDT", 2, "HACK", "PCI", 0x00000000)
 				"model", Buffer () { "200 Series PCH PCI Express Root Port #1" },
 				"device_type", Buffer () { "PCI bridge" },
 				"AAPL,slot-name", Buffer () { "Internal@0,28,0" },
+			})
+		}
+	}
+	External (_SB_.PC00.RP03, DeviceObj)
+	Device (_SB.PC00.RP03)
+	{
+		Name (_ADR, 0x001c0002)
+		Method (_DSM, 4, NotSerialized)
+		{
+			If (LEqual (Arg2, Zero)) { Return (Buffer() { 0x03 } ) }
+			Return (Package ()
+			{
+				"model", Buffer () { "200 Series PCH PCI Express Root Port #3" },
+				"device_type", Buffer () { "PCI bridge" },
+				"AAPL,slot-name", Buffer () { "Internal@0,28,2" },
 			})
 		}
 	}
@@ -466,8 +466,8 @@ DefinitionBlock ("", "SSDT", 2, "HACK", "PCI", 0x00000000)
 			})
 		}
 	}
-	External (_SB_.PC00.RP05.ARPT, DeviceObj)
-	Device (_SB.PC00.RP05.ARPT)
+	External (_SB_.PC00.RP03.D0A6, DeviceObj)
+	Device (_SB.PC00.RP03.D0A6)
 	{
 		Name (_ADR, 0x00000000)
 		Method (_DSM, 4, NotSerialized)
@@ -475,9 +475,9 @@ DefinitionBlock ("", "SSDT", 2, "HACK", "PCI", 0x00000000)
 			If (LEqual (Arg2, Zero)) { Return (Buffer() { 0x03 } ) }
 			Return (Package ()
 			{
-				"model", Buffer () { "BCM43602 802.11ac Wireless LAN SoC" },
-				"device_type", Buffer () { "Network controller" },
-				"AAPL,slot-name", Buffer () { "Internal@0,28,4/0,0" },
+				"model", Buffer () { "I210 Gigabit Network Connection" },
+				"device_type", Buffer () { "Ethernet controller" },
+				"AAPL,slot-name", Buffer () { "Internal@0,28,2/0,0" },
 			})
 		}
 	}
@@ -616,21 +616,6 @@ DefinitionBlock ("", "SSDT", 2, "HACK", "PCI", 0x00000000)
 			})
 		}
 	}
-	External (_SB_.PC03.BR3C.SL0B, DeviceObj)
-	Device (_SB.PC03.BR3C.SL0B)
-	{
-		Name (_ADR, 0x00000000)
-		Method (_DSM, 4, NotSerialized)
-		{
-			If (LEqual (Arg2, Zero)) { Return (Buffer() { 0x03 } ) }
-			Return (Package ()
-			{
-				"model", Buffer () { "ASM2824 PCIe Gen3 Packet Switch" },
-				"device_type", Buffer () { "PCI bridge" },
-				"AAPL,slot-name", Buffer () { "Internal@3,2,0/0,0" },
-			})
-		}
-	}
 	External (_SB_.PC02.BR2A, DeviceObj)
 	Device (_SB.PC02.BR2A)
 	{
@@ -736,6 +721,36 @@ DefinitionBlock ("", "SSDT", 2, "HACK", "PCI", 0x00000000)
 			})
 		}
 	}
+	External (_SB_.PC01.BR1A.PEGP, DeviceObj)
+	Device (_SB.PC01.BR1A.PEGP)
+	{
+		Name (_ADR, 0x00000000)
+		Method (_DSM, 4, NotSerialized)
+		{
+			If (LEqual (Arg2, Zero)) { Return (Buffer() { 0x03 } ) }
+			Return (Package ()
+			{
+				"model", Buffer () { "Navi 10 XL Upstream Port of PCI Express Switch" },
+				"device_type", Buffer () { "PCI bridge" },
+				"AAPL,slot-name", Buffer () { "Internal@1,0,0/0,0" },
+			})
+		}
+	}
+	External (_SB_.PC00.RP09.ANS5, DeviceObj)
+	Device (_SB.PC00.RP09.ANS5)
+	{
+		Name (_ADR, 0x00000000)
+		Method (_DSM, 4, NotSerialized)
+		{
+			If (LEqual (Arg2, Zero)) { Return (Buffer() { 0x03 } ) }
+			Return (Package ()
+			{
+				"model", Buffer () { "NVMe SSD Controller SM981/PM981/PM983" },
+				"device_type", Buffer () { "Non-Volatile memory controller" },
+				"AAPL,slot-name", Buffer () { "Internal@0,29,0/0,0" },
+			})
+		}
+	}
 	External (_SB_.PC00.RP04.D0A7, DeviceObj)
 	Device (_SB.PC00.RP04.D0A7)
 	{
@@ -751,8 +766,8 @@ DefinitionBlock ("", "SSDT", 2, "HACK", "PCI", 0x00000000)
 			})
 		}
 	}
-	External (_SB_.PC00.RP19.PXSX, DeviceObj)
-	Device (_SB.PC00.RP19.PXSX)
+	External (_SB_.PC00.RP05.PXSX, DeviceObj)
+	Device (_SB.PC00.RP05.PXSX)
 	{
 		Name (_ADR, 0x00000000)
 		Method (_DSM, 4, NotSerialized)
@@ -760,9 +775,9 @@ DefinitionBlock ("", "SSDT", 2, "HACK", "PCI", 0x00000000)
 			If (LEqual (Arg2, Zero)) { Return (Buffer() { 0x03 } ) }
 			Return (Package ()
 			{
-				"model", Buffer () { "ASM2142/ASM3142 USB 3.1 Host Controller" },
-				"device_type", Buffer () { "USB controller" },
-				"AAPL,slot-name", Buffer () { "Internal@0,27,2/0,0" },
+				"model", Buffer () { "BCM43602 802.11ac Wireless LAN SoC" },
+				"device_type", Buffer () { "Network controller" },
+				"AAPL,slot-name", Buffer () { "Internal@0,28,4/0,0" },
 			})
 		}
 	}
@@ -778,6 +793,81 @@ DefinitionBlock ("", "SSDT", 2, "HACK", "PCI", 0x00000000)
 				"model", Buffer () { "Navi 10 XL Upstream Port of PCI Express Switch" },
 				"device_type", Buffer () { "PCI bridge" },
 				"AAPL,slot-name", Buffer () { "Internal@2,0,0/0,0" },
+			})
+		}
+	}
+	External (_SB_.PC03.BR3C.SL0B, DeviceObj)
+	Device (_SB.PC03.BR3C.SL0B)
+	{
+		Name (_ADR, 0x00000000)
+		Method (_DSM, 4, NotSerialized)
+		{
+			If (LEqual (Arg2, Zero)) { Return (Buffer() { 0x03 } ) }
+			Return (Package ()
+			{
+				"model", Buffer () { "ASM2824 PCIe Gen3 Packet Switch" },
+				"device_type", Buffer () { "PCI bridge" },
+				"AAPL,slot-name", Buffer () { "Internal@3,2,0/0,0" },
+			})
+		}
+	}
+	External (_SB_.PC01.BR1A.PEGP.BRG0, DeviceObj)
+	Device (_SB.PC01.BR1A.PEGP.BRG0)
+	{
+		Name (_ADR, 0x00000000)
+		Method (_DSM, 4, NotSerialized)
+		{
+			If (LEqual (Arg2, Zero)) { Return (Buffer() { 0x03 } ) }
+			Return (Package ()
+			{
+				"model", Buffer () { "Navi 10 XL Downstream Port of PCI Express Switch" },
+				"device_type", Buffer () { "PCI bridge" },
+				"AAPL,slot-name", Buffer () { "Internal@1,0,0/0,0/0,0" },
+			})
+		}
+	}
+	External (_SB_.PC00.RP01.XHC2, DeviceObj)
+	Device (_SB.PC00.RP01.XHC2)
+	{
+		Name (_ADR, 0x00000000)
+		Method (_DSM, 4, NotSerialized)
+		{
+			If (LEqual (Arg2, Zero)) { Return (Buffer() { 0x03 } ) }
+			Return (Package ()
+			{
+				"model", Buffer () { "ASM2142/ASM3142 USB 3.1 Host Controller" },
+				"device_type", Buffer () { "USB controller" },
+				"AAPL,slot-name", Buffer () { "Internal@0,28,0/0,0" },
+			})
+		}
+	}
+	External (_SB_.PC00.RP19.XHC3, DeviceObj)
+	Device (_SB.PC00.RP19.XHC3)
+	{
+		Name (_ADR, 0x00000000)
+		Method (_DSM, 4, NotSerialized)
+		{
+			If (LEqual (Arg2, Zero)) { Return (Buffer() { 0x03 } ) }
+			Return (Package ()
+			{
+				"model", Buffer () { "ASM2142/ASM3142 USB 3.1 Host Controller" },
+				"device_type", Buffer () { "USB controller" },
+				"AAPL,slot-name", Buffer () { "Internal@0,27,2/0,0" },
+			})
+		}
+	}
+	External (_SB_.PC02.BR2A.PEGP.BRG0, DeviceObj)
+	Device (_SB.PC02.BR2A.PEGP.BRG0)
+	{
+		Name (_ADR, 0x00000000)
+		Method (_DSM, 4, NotSerialized)
+		{
+			If (LEqual (Arg2, Zero)) { Return (Buffer() { 0x03 } ) }
+			Return (Package ()
+			{
+				"model", Buffer () { "Navi 10 XL Downstream Port of PCI Express Switch" },
+				"device_type", Buffer () { "PCI bridge" },
+				"AAPL,slot-name", Buffer () { "Internal@2,0,0/0,0/0,0" },
 			})
 		}
 	}
@@ -841,8 +931,8 @@ DefinitionBlock ("", "SSDT", 2, "HACK", "PCI", 0x00000000)
 			})
 		}
 	}
-	External (_SB_.PC00.RP09.ANS5, DeviceObj)
-	Device (_SB.PC00.RP09.ANS5)
+	External (_SB_.PC01.BR1A.PEGP.BRG0.GFX0, DeviceObj)
+	Device (_SB.PC01.BR1A.PEGP.BRG0.GFX0)
 	{
 		Name (_ADR, 0x00000000)
 		Method (_DSM, 4, NotSerialized)
@@ -850,144 +940,24 @@ DefinitionBlock ("", "SSDT", 2, "HACK", "PCI", 0x00000000)
 			If (LEqual (Arg2, Zero)) { Return (Buffer() { 0x03 } ) }
 			Return (Package ()
 			{
-				"model", Buffer () { "NVMe SSD Controller SM981/PM981/PM983" },
-				"device_type", Buffer () { "Non-Volatile memory controller" },
-				"AAPL,slot-name", Buffer () { "Internal@0,29,0/0,0" },
+				"model", Buffer () { "Navi 23 WKS-XL [Radeon PRO W6600]" },
+				"device_type", Buffer () { "VGA compatible controller" },
+				"AAPL,slot-name", Buffer () { "Internal@1,0,0/0,0/0,0/0,0" },
 			})
 		}
 	}
-	External (_SB_.PC01.BR1A.PEGP, DeviceObj)
-	Device (_SB.PC01.BR1A.PEGP)
+	External (_SB_.PC01.BR1A.PEGP.BRG0.HDAU, DeviceObj)
+	Device (_SB.PC01.BR1A.PEGP.BRG0.HDAU)
 	{
-		Name (_ADR, 0x00000000)
+		Name (_ADR, 0x00000001)
 		Method (_DSM, 4, NotSerialized)
 		{
 			If (LEqual (Arg2, Zero)) { Return (Buffer() { 0x03 } ) }
 			Return (Package ()
 			{
-				"model", Buffer () { "Navi 10 XL Upstream Port of PCI Express Switch" },
-				"device_type", Buffer () { "PCI bridge" },
-				"AAPL,slot-name", Buffer () { "Internal@1,0,0/0,0" },
-			})
-		}
-	}
-	External (_SB_.PC00.RP01.XHC2, DeviceObj)
-	Device (_SB.PC00.RP01.XHC2)
-	{
-		Name (_ADR, 0x00000000)
-		Method (_DSM, 4, NotSerialized)
-		{
-			If (LEqual (Arg2, Zero)) { Return (Buffer() { 0x03 } ) }
-			Return (Package ()
-			{
-				"model", Buffer () { "ASM2142/ASM3142 USB 3.1 Host Controller" },
-				"device_type", Buffer () { "USB controller" },
-				"AAPL,slot-name", Buffer () { "Internal@0,28,0/0,0" },
-			})
-		}
-	}
-	External (_SB_.PC00.RP03.D0A6, DeviceObj)
-	Device (_SB.PC00.RP03.D0A6)
-	{
-		Name (_ADR, 0x00000000)
-		Method (_DSM, 4, NotSerialized)
-		{
-			If (LEqual (Arg2, Zero)) { Return (Buffer() { 0x03 } ) }
-			Return (Package ()
-			{
-				"model", Buffer () { "I210 Gigabit Network Connection" },
-				"device_type", Buffer () { "Ethernet controller" },
-				"AAPL,slot-name", Buffer () { "Internal@0,28,2/0,0" },
-			})
-		}
-	}
-	External (_SB_.PC03.BR3C.SL0B.BRG1.ANS2, DeviceObj)
-	Device (_SB.PC03.BR3C.SL0B.BRG1.ANS2)
-	{
-		Name (_ADR, 0x00000000)
-		Method (_DSM, 4, NotSerialized)
-		{
-			If (LEqual (Arg2, Zero)) { Return (Buffer() { 0x03 } ) }
-			Return (Package ()
-			{
-				"model", Buffer () { "E12 NVMe Controller" },
-				"device_type", Buffer () { "Non-Volatile memory controller" },
-				"AAPL,slot-name", Buffer () { "Internal@3,2,0/0,0/4,0/0,0" },
-			})
-		}
-	}
-	External (_SB_.PC03.BR3C.SL0B.BRG0.ANS1, DeviceObj)
-	Device (_SB.PC03.BR3C.SL0B.BRG0.ANS1)
-	{
-		Name (_ADR, 0x00000000)
-		Method (_DSM, 4, NotSerialized)
-		{
-			If (LEqual (Arg2, Zero)) { Return (Buffer() { 0x03 } ) }
-			Return (Package ()
-			{
-				"model", Buffer () { "E12 NVMe Controller" },
-				"device_type", Buffer () { "Non-Volatile memory controller" },
-				"AAPL,slot-name", Buffer () { "Internal@3,2,0/0,0/0,0/0,0" },
-			})
-		}
-	}
-	External (_SB_.PC03.BR3C.SL0B.BRG2.ANS3, DeviceObj)
-	Device (_SB.PC03.BR3C.SL0B.BRG2.ANS3)
-	{
-		Name (_ADR, 0x00000000)
-		Method (_DSM, 4, NotSerialized)
-		{
-			If (LEqual (Arg2, Zero)) { Return (Buffer() { 0x03 } ) }
-			Return (Package ()
-			{
-				"model", Buffer () { "E12 NVMe Controller" },
-				"device_type", Buffer () { "Non-Volatile memory controller" },
-				"AAPL,slot-name", Buffer () { "Internal@3,2,0/0,0/8,0/0,0" },
-			})
-		}
-	}
-	External (_SB_.PC02.BR2A.PEGP.BRG0, DeviceObj)
-	Device (_SB.PC02.BR2A.PEGP.BRG0)
-	{
-		Name (_ADR, 0x00000000)
-		Method (_DSM, 4, NotSerialized)
-		{
-			If (LEqual (Arg2, Zero)) { Return (Buffer() { 0x03 } ) }
-			Return (Package ()
-			{
-				"model", Buffer () { "Navi 10 XL Downstream Port of PCI Express Switch" },
-				"device_type", Buffer () { "PCI bridge" },
-				"AAPL,slot-name", Buffer () { "Internal@2,0,0/0,0/0,0" },
-			})
-		}
-	}
-	External (_SB_.PC01.BR1A.PEGP.BRG0, DeviceObj)
-	Device (_SB.PC01.BR1A.PEGP.BRG0)
-	{
-		Name (_ADR, 0x00000000)
-		Method (_DSM, 4, NotSerialized)
-		{
-			If (LEqual (Arg2, Zero)) { Return (Buffer() { 0x03 } ) }
-			Return (Package ()
-			{
-				"model", Buffer () { "Navi 10 XL Downstream Port of PCI Express Switch" },
-				"device_type", Buffer () { "PCI bridge" },
-				"AAPL,slot-name", Buffer () { "Internal@1,0,0/0,0/0,0" },
-			})
-		}
-	}
-	External (_SB_.PC03.BR3C.SL0B.BRG3.ANS4, DeviceObj)
-	Device (_SB.PC03.BR3C.SL0B.BRG3.ANS4)
-	{
-		Name (_ADR, 0x00000000)
-		Method (_DSM, 4, NotSerialized)
-		{
-			If (LEqual (Arg2, Zero)) { Return (Buffer() { 0x03 } ) }
-			Return (Package ()
-			{
-				"model", Buffer () { "E12 NVMe Controller" },
-				"device_type", Buffer () { "Non-Volatile memory controller" },
-				"AAPL,slot-name", Buffer () { "Internal@3,2,0/0,0/12,0/0,0" },
+				"model", Buffer () { "Navi 21/23 HDMI/DP Audio Controller" },
+				"device_type", Buffer () { "Audio device" },
+				"AAPL,slot-name", Buffer () { "Internal@1,0,0/0,0/0,0/0,1" },
 			})
 		}
 	}
@@ -1021,8 +991,8 @@ DefinitionBlock ("", "SSDT", 2, "HACK", "PCI", 0x00000000)
 			})
 		}
 	}
-	External (_SB_.PC01.BR1A.PEGP.BRG0.GFX0, DeviceObj)
-	Device (_SB.PC01.BR1A.PEGP.BRG0.GFX0)
+	External (_SB_.PC03.BR3C.SL0B.BRG0.ANS1, DeviceObj)
+	Device (_SB.PC03.BR3C.SL0B.BRG0.ANS1)
 	{
 		Name (_ADR, 0x00000000)
 		Method (_DSM, 4, NotSerialized)
@@ -1030,24 +1000,54 @@ DefinitionBlock ("", "SSDT", 2, "HACK", "PCI", 0x00000000)
 			If (LEqual (Arg2, Zero)) { Return (Buffer() { 0x03 } ) }
 			Return (Package ()
 			{
-				"model", Buffer () { "Navi 23 WKS-XL [Radeon PRO W6600]" },
-				"device_type", Buffer () { "VGA compatible controller" },
-				"AAPL,slot-name", Buffer () { "Internal@1,0,0/0,0/0,0/0,0" },
+				"model", Buffer () { "E12 NVMe Controller" },
+				"device_type", Buffer () { "Non-Volatile memory controller" },
+				"AAPL,slot-name", Buffer () { "Internal@3,2,0/0,0/0,0/0,0" },
 			})
 		}
 	}
-	External (_SB_.PC01.BR1A.PEGP.BRG0.HDAU, DeviceObj)
-	Device (_SB.PC01.BR1A.PEGP.BRG0.HDAU)
+	External (_SB_.PC03.BR3C.SL0B.BRG1.ANS2, DeviceObj)
+	Device (_SB.PC03.BR3C.SL0B.BRG1.ANS2)
 	{
-		Name (_ADR, 0x00000001)
+		Name (_ADR, 0x00000000)
 		Method (_DSM, 4, NotSerialized)
 		{
 			If (LEqual (Arg2, Zero)) { Return (Buffer() { 0x03 } ) }
 			Return (Package ()
 			{
-				"model", Buffer () { "Navi 21/23 HDMI/DP Audio Controller" },
-				"device_type", Buffer () { "Audio device" },
-				"AAPL,slot-name", Buffer () { "Internal@1,0,0/0,0/0,0/0,1" },
+				"model", Buffer () { "E12 NVMe Controller" },
+				"device_type", Buffer () { "Non-Volatile memory controller" },
+				"AAPL,slot-name", Buffer () { "Internal@3,2,0/0,0/4,0/0,0" },
+			})
+		}
+	}
+	External (_SB_.PC03.BR3C.SL0B.BRG2.ANS3, DeviceObj)
+	Device (_SB.PC03.BR3C.SL0B.BRG2.ANS3)
+	{
+		Name (_ADR, 0x00000000)
+		Method (_DSM, 4, NotSerialized)
+		{
+			If (LEqual (Arg2, Zero)) { Return (Buffer() { 0x03 } ) }
+			Return (Package ()
+			{
+				"model", Buffer () { "E12 NVMe Controller" },
+				"device_type", Buffer () { "Non-Volatile memory controller" },
+				"AAPL,slot-name", Buffer () { "Internal@3,2,0/0,0/8,0/0,0" },
+			})
+		}
+	}
+	External (_SB_.PC03.BR3C.SL0B.BRG3.ANS4, DeviceObj)
+	Device (_SB.PC03.BR3C.SL0B.BRG3.ANS4)
+	{
+		Name (_ADR, 0x00000000)
+		Method (_DSM, 4, NotSerialized)
+		{
+			If (LEqual (Arg2, Zero)) { Return (Buffer() { 0x03 } ) }
+			Return (Package ()
+			{
+				"model", Buffer () { "E12 NVMe Controller" },
+				"device_type", Buffer () { "Non-Volatile memory controller" },
+				"AAPL,slot-name", Buffer () { "Internal@3,2,0/0,0/12,0/0,0" },
 			})
 		}
 	}
