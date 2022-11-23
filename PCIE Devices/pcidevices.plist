@@ -1,0 +1,1357 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>DeviceProperties</key>
+	<dict>
+		<key>Add</key>
+		<dict>
+			<key>PciRoot(0x0)/Pci(0x0,0x0)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,0,0</string>
+				<key>device_type</key>
+				<string>Host bridge</string>
+				<key>model</key>
+				<string>Sky Lake-E DMI3 Registers</string>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x14,0x0)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,20,0</string>
+				<key>device_type</key>
+				<string>USB controller</string>
+				<key>model</key>
+				<string>200 Series/Z370 Chipset Family USB 3.0 xHCI Controller</string>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x14,0x2)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,20,2</string>
+				<key>device_type</key>
+				<string>Signal processing controller</string>
+				<key>model</key>
+				<string>200 Series PCH Thermal Subsystem</string>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x16,0x0)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,22,0</string>
+				<key>device_type</key>
+				<string>Communication controller</string>
+				<key>model</key>
+				<string>200 Series PCH CSME HECI #1</string>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x17,0x0)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,23,0</string>
+				<key>device_type</key>
+				<string>SATA controller</string>
+				<key>model</key>
+				<string>200 Series PCH SATA controller [AHCI mode]</string>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x1B,0x0)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,27,0</string>
+				<key>device_type</key>
+				<string>PCI bridge</string>
+				<key>model</key>
+				<string>200 Series PCH PCI Express Root Port #17</string>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x1B,0x2)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,27,2</string>
+				<key>device_type</key>
+				<string>PCI bridge</string>
+				<key>model</key>
+				<string>200 Series PCH PCI Express Root Port #19</string>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x1B,0x2)/Pci(0x0,0x0)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,27,2/0,0</string>
+				<key>device_type</key>
+				<string>USB controller</string>
+				<key>model</key>
+				<string>ASM2142/ASM3142 USB 3.1 Host Controller</string>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x1C,0x0)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,28,0</string>
+				<key>device_type</key>
+				<string>PCI bridge</string>
+				<key>model</key>
+				<string>200 Series PCH PCI Express Root Port #1</string>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x1C,0x0)/Pci(0x0,0x0)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,28,0/0,0</string>
+				<key>device_type</key>
+				<string>USB controller</string>
+				<key>model</key>
+				<string>ASM2142/ASM3142 USB 3.1 Host Controller</string>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x1C,0x2)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,28,2</string>
+				<key>device_type</key>
+				<string>PCI bridge</string>
+				<key>model</key>
+				<string>200 Series PCH PCI Express Root Port #3</string>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x1C,0x2)/Pci(0x0,0x0)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,28,2/0,0</string>
+				<key>device_type</key>
+				<string>Ethernet controller</string>
+				<key>model</key>
+				<string>I210 Gigabit Network Connection</string>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x1C,0x3)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,28,3</string>
+				<key>device_type</key>
+				<string>PCI bridge</string>
+				<key>model</key>
+				<string>200 Series PCH PCI Express Root Port #4</string>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x1C,0x3)/Pci(0x0,0x0)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,28,3/0,0</string>
+				<key>device_type</key>
+				<string>Ethernet controller</string>
+				<key>model</key>
+				<string>I210 Gigabit Network Connection</string>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x1C,0x4)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,28,4</string>
+				<key>device_type</key>
+				<string>PCI bridge</string>
+				<key>model</key>
+				<string>200 Series PCH PCI Express Root Port #5</string>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x1C,0x4)/Pci(0x0,0x0)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,28,4/0,0</string>
+				<key>device_type</key>
+				<string>Network controller</string>
+				<key>model</key>
+				<string>BCM43602 802.11ac Wireless LAN SoC</string>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x1D,0x0)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,29,0</string>
+				<key>device_type</key>
+				<string>PCI bridge</string>
+				<key>model</key>
+				<string>200 Series PCH PCI Express Root Port #9</string>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x1D,0x0)/Pci(0x0,0x0)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,29,0/0,0</string>
+				<key>device_type</key>
+				<string>Non-Volatile memory controller</string>
+				<key>model</key>
+				<string>NVMe SSD Controller SM981/PM981/PM983</string>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x1F,0x0)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,31,0</string>
+				<key>device_type</key>
+				<string>ISA bridge</string>
+				<key>model</key>
+				<string>X299 Chipset LPC/eSPI Controller</string>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x1F,0x2)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,31,2</string>
+				<key>device_type</key>
+				<string>Memory controller</string>
+				<key>model</key>
+				<string>200 Series/Z370 Chipset Family Power Management Controller</string>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x1F,0x3)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,31,3</string>
+				<key>device_type</key>
+				<string>Audio device</string>
+				<key>layout-id</key>
+				<data>
+				AQAAAA==
+				</data>
+				<key>model</key>
+				<string>200 Series PCH HD Audio</string>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x1F,0x4)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,31,4</string>
+				<key>device_type</key>
+				<string>SMBus</string>
+				<key>model</key>
+				<string>200 Series/Z370 Chipset Family SMBus Controller</string>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x4,0x0)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,4,0</string>
+				<key>device_type</key>
+				<string>System peripheral</string>
+				<key>model</key>
+				<string>Sky Lake-E CBDMA Registers</string>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x4,0x1)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,4,1</string>
+				<key>device_type</key>
+				<string>System peripheral</string>
+				<key>model</key>
+				<string>Sky Lake-E CBDMA Registers</string>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x4,0x2)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,4,2</string>
+				<key>device_type</key>
+				<string>System peripheral</string>
+				<key>model</key>
+				<string>Sky Lake-E CBDMA Registers</string>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x4,0x3)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,4,3</string>
+				<key>device_type</key>
+				<string>System peripheral</string>
+				<key>model</key>
+				<string>Sky Lake-E CBDMA Registers</string>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x4,0x4)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,4,4</string>
+				<key>device_type</key>
+				<string>System peripheral</string>
+				<key>model</key>
+				<string>Sky Lake-E CBDMA Registers</string>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x4,0x5)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,4,5</string>
+				<key>device_type</key>
+				<string>System peripheral</string>
+				<key>model</key>
+				<string>Sky Lake-E CBDMA Registers</string>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x4,0x6)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,4,6</string>
+				<key>device_type</key>
+				<string>System peripheral</string>
+				<key>model</key>
+				<string>Sky Lake-E CBDMA Registers</string>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x4,0x7)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,4,7</string>
+				<key>device_type</key>
+				<string>System peripheral</string>
+				<key>model</key>
+				<string>Sky Lake-E CBDMA Registers</string>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x5,0x0)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,5,0</string>
+				<key>device_type</key>
+				<string>System peripheral</string>
+				<key>model</key>
+				<string>Sky Lake-E MM/Vt-d Configuration Registers</string>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x5,0x2)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,5,2</string>
+				<key>device_type</key>
+				<string>System peripheral</string>
+				<key>model</key>
+				<string>Sky Lake-E RAS</string>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x5,0x4)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,5,4</string>
+				<key>device_type</key>
+				<string>PIC</string>
+				<key>model</key>
+				<string>Sky Lake-E IOAPIC</string>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x8,0x0)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,8,0</string>
+				<key>device_type</key>
+				<string>System peripheral</string>
+				<key>model</key>
+				<string>Sky Lake-E Ubox Registers</string>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x8,0x1)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,8,1</string>
+				<key>device_type</key>
+				<string>Performance counters</string>
+				<key>model</key>
+				<string>Sky Lake-E Ubox Registers</string>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x8,0x2)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,8,2</string>
+				<key>device_type</key>
+				<string>System peripheral</string>
+				<key>model</key>
+				<string>Sky Lake-E Ubox Registers</string>
+			</dict>
+			<key>PciRoot(0x1)/Pci(0x0,0x0)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@1,0,0</string>
+				<key>device_type</key>
+				<string>PCI bridge</string>
+				<key>model</key>
+				<string>Sky Lake-E PCI Express Root Port A</string>
+			</dict>
+			<key>PciRoot(0x1)/Pci(0x0,0x0)/Pci(0x0,0x0)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@1,0,0/0,0</string>
+				<key>device_type</key>
+				<string>PCI bridge</string>
+				<key>model</key>
+				<string>Navi 10 XL Upstream Port of PCI Express Switch</string>
+			</dict>
+			<key>PciRoot(0x1)/Pci(0x0,0x0)/Pci(0x0,0x0)/Pci(0x0,0x0)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@1,0,0/0,0/0,0</string>
+				<key>device_type</key>
+				<string>PCI bridge</string>
+				<key>model</key>
+				<string>Navi 10 XL Downstream Port of PCI Express Switch</string>
+			</dict>
+			<key>PciRoot(0x1)/Pci(0x0,0x0)/Pci(0x0,0x0)/Pci(0x0,0x0)/Pci(0x0,0x0)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@1,0,0/0,0/0,0/0,0</string>
+				<key>device_type</key>
+				<string>VGA compatible controller</string>
+				<key>model</key>
+				<string>Navi 23 WKS-XL [Radeon PRO W6600]</string>
+			</dict>
+			<key>PciRoot(0x1)/Pci(0x0,0x0)/Pci(0x0,0x0)/Pci(0x0,0x0)/Pci(0x0,0x1)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@1,0,0/0,0/0,0/0,1</string>
+				<key>device_type</key>
+				<string>Audio device</string>
+				<key>model</key>
+				<string>Navi 21/23 HDMI/DP Audio Controller</string>
+			</dict>
+			<key>PciRoot(0x1)/Pci(0x10,0x0)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@1,16,0</string>
+				<key>device_type</key>
+				<string>System peripheral</string>
+				<key>model</key>
+				<string>Sky Lake-E CHA Registers</string>
+			</dict>
+			<key>PciRoot(0x1)/Pci(0x10,0x1)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@1,16,1</string>
+				<key>device_type</key>
+				<string>System peripheral</string>
+				<key>model</key>
+				<string>Sky Lake-E CHA Registers</string>
+			</dict>
+			<key>PciRoot(0x1)/Pci(0x1D,0x0)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@1,29,0</string>
+				<key>device_type</key>
+				<string>System peripheral</string>
+				<key>model</key>
+				<string>Sky Lake-E CHA Registers</string>
+			</dict>
+			<key>PciRoot(0x1)/Pci(0x1D,0x1)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@1,29,1</string>
+				<key>device_type</key>
+				<string>System peripheral</string>
+				<key>model</key>
+				<string>Sky Lake-E CHA Registers</string>
+			</dict>
+			<key>PciRoot(0x1)/Pci(0x1D,0x2)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@1,29,2</string>
+				<key>device_type</key>
+				<string>System peripheral</string>
+				<key>model</key>
+				<string>Sky Lake-E CHA Registers</string>
+			</dict>
+			<key>PciRoot(0x1)/Pci(0x1D,0x3)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@1,29,3</string>
+				<key>device_type</key>
+				<string>System peripheral</string>
+				<key>model</key>
+				<string>Sky Lake-E CHA Registers</string>
+			</dict>
+			<key>PciRoot(0x1)/Pci(0x1E,0x0)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@1,30,0</string>
+				<key>device_type</key>
+				<string>System peripheral</string>
+				<key>model</key>
+				<string>Sky Lake-E PCU Registers</string>
+			</dict>
+			<key>PciRoot(0x1)/Pci(0x1E,0x1)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@1,30,1</string>
+				<key>device_type</key>
+				<string>System peripheral</string>
+				<key>model</key>
+				<string>Sky Lake-E PCU Registers</string>
+			</dict>
+			<key>PciRoot(0x1)/Pci(0x1E,0x2)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@1,30,2</string>
+				<key>device_type</key>
+				<string>System peripheral</string>
+				<key>model</key>
+				<string>Sky Lake-E PCU Registers</string>
+			</dict>
+			<key>PciRoot(0x1)/Pci(0x1E,0x3)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@1,30,3</string>
+				<key>device_type</key>
+				<string>System peripheral</string>
+				<key>model</key>
+				<string>Sky Lake-E PCU Registers</string>
+			</dict>
+			<key>PciRoot(0x1)/Pci(0x1E,0x4)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@1,30,4</string>
+				<key>device_type</key>
+				<string>System peripheral</string>
+				<key>model</key>
+				<string>Sky Lake-E PCU Registers</string>
+			</dict>
+			<key>PciRoot(0x1)/Pci(0x1E,0x5)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@1,30,5</string>
+				<key>device_type</key>
+				<string>System peripheral</string>
+				<key>model</key>
+				<string>Sky Lake-E PCU Registers</string>
+			</dict>
+			<key>PciRoot(0x1)/Pci(0x1E,0x6)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@1,30,6</string>
+				<key>device_type</key>
+				<string>System peripheral</string>
+				<key>model</key>
+				<string>Sky Lake-E PCU Registers</string>
+			</dict>
+			<key>PciRoot(0x1)/Pci(0x5,0x0)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@1,5,0</string>
+				<key>device_type</key>
+				<string>System peripheral</string>
+				<key>model</key>
+				<string>Sky Lake-E VT-d</string>
+			</dict>
+			<key>PciRoot(0x1)/Pci(0x5,0x2)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@1,5,2</string>
+				<key>device_type</key>
+				<string>System peripheral</string>
+				<key>model</key>
+				<string>Sky Lake-E RAS Configuration Registers</string>
+			</dict>
+			<key>PciRoot(0x1)/Pci(0x5,0x4)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@1,5,4</string>
+				<key>device_type</key>
+				<string>PIC</string>
+				<key>model</key>
+				<string>Sky Lake-E IOxAPIC Configuration Registers</string>
+			</dict>
+			<key>PciRoot(0x1)/Pci(0x8,0x0)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@1,8,0</string>
+				<key>device_type</key>
+				<string>System peripheral</string>
+				<key>model</key>
+				<string>Sky Lake-E CHA Registers</string>
+			</dict>
+			<key>PciRoot(0x1)/Pci(0x8,0x1)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@1,8,1</string>
+				<key>device_type</key>
+				<string>System peripheral</string>
+				<key>model</key>
+				<string>Sky Lake-E CHA Registers</string>
+			</dict>
+			<key>PciRoot(0x1)/Pci(0x8,0x2)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@1,8,2</string>
+				<key>device_type</key>
+				<string>System peripheral</string>
+				<key>model</key>
+				<string>Sky Lake-E CHA Registers</string>
+			</dict>
+			<key>PciRoot(0x1)/Pci(0x8,0x3)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@1,8,3</string>
+				<key>device_type</key>
+				<string>System peripheral</string>
+				<key>model</key>
+				<string>Sky Lake-E CHA Registers</string>
+			</dict>
+			<key>PciRoot(0x1)/Pci(0x8,0x4)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@1,8,4</string>
+				<key>device_type</key>
+				<string>System peripheral</string>
+				<key>model</key>
+				<string>Sky Lake-E CHA Registers</string>
+			</dict>
+			<key>PciRoot(0x1)/Pci(0x8,0x5)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@1,8,5</string>
+				<key>device_type</key>
+				<string>System peripheral</string>
+				<key>model</key>
+				<string>Sky Lake-E CHA Registers</string>
+			</dict>
+			<key>PciRoot(0x1)/Pci(0x8,0x6)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@1,8,6</string>
+				<key>device_type</key>
+				<string>System peripheral</string>
+				<key>model</key>
+				<string>Sky Lake-E CHA Registers</string>
+			</dict>
+			<key>PciRoot(0x1)/Pci(0x8,0x7)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@1,8,7</string>
+				<key>device_type</key>
+				<string>System peripheral</string>
+				<key>model</key>
+				<string>Sky Lake-E CHA Registers</string>
+			</dict>
+			<key>PciRoot(0x1)/Pci(0x9,0x0)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@1,9,0</string>
+				<key>device_type</key>
+				<string>System peripheral</string>
+				<key>model</key>
+				<string>Sky Lake-E CHA Registers</string>
+			</dict>
+			<key>PciRoot(0x1)/Pci(0x9,0x1)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@1,9,1</string>
+				<key>device_type</key>
+				<string>System peripheral</string>
+				<key>model</key>
+				<string>Sky Lake-E CHA Registers</string>
+			</dict>
+			<key>PciRoot(0x1)/Pci(0x9,0x2)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@1,9,2</string>
+				<key>device_type</key>
+				<string>System peripheral</string>
+				<key>model</key>
+				<string>Sky Lake-E CHA Registers</string>
+			</dict>
+			<key>PciRoot(0x1)/Pci(0x9,0x3)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@1,9,3</string>
+				<key>device_type</key>
+				<string>System peripheral</string>
+				<key>model</key>
+				<string>Sky Lake-E CHA Registers</string>
+			</dict>
+			<key>PciRoot(0x1)/Pci(0x9,0x4)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@1,9,4</string>
+				<key>device_type</key>
+				<string>System peripheral</string>
+				<key>model</key>
+				<string>Sky Lake-E CHA Registers</string>
+			</dict>
+			<key>PciRoot(0x1)/Pci(0x9,0x5)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@1,9,5</string>
+				<key>device_type</key>
+				<string>System peripheral</string>
+				<key>model</key>
+				<string>Sky Lake-E CHA Registers</string>
+			</dict>
+			<key>PciRoot(0x1)/Pci(0x9,0x6)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@1,9,6</string>
+				<key>device_type</key>
+				<string>System peripheral</string>
+				<key>model</key>
+				<string>Sky Lake-E CHA Registers</string>
+			</dict>
+			<key>PciRoot(0x1)/Pci(0x9,0x7)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@1,9,7</string>
+				<key>device_type</key>
+				<string>System peripheral</string>
+				<key>model</key>
+				<string>Sky Lake-E CHA Registers</string>
+			</dict>
+			<key>PciRoot(0x1)/Pci(0xA,0x0)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@1,10,0</string>
+				<key>device_type</key>
+				<string>System peripheral</string>
+				<key>model</key>
+				<string>Sky Lake-E CHA Registers</string>
+			</dict>
+			<key>PciRoot(0x1)/Pci(0xA,0x1)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@1,10,1</string>
+				<key>device_type</key>
+				<string>System peripheral</string>
+				<key>model</key>
+				<string>Sky Lake-E CHA Registers</string>
+			</dict>
+			<key>PciRoot(0x1)/Pci(0xE,0x0)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@1,14,0</string>
+				<key>device_type</key>
+				<string>System peripheral</string>
+				<key>model</key>
+				<string>Sky Lake-E CHA Registers</string>
+			</dict>
+			<key>PciRoot(0x1)/Pci(0xE,0x1)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@1,14,1</string>
+				<key>device_type</key>
+				<string>System peripheral</string>
+				<key>model</key>
+				<string>Sky Lake-E CHA Registers</string>
+			</dict>
+			<key>PciRoot(0x1)/Pci(0xE,0x2)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@1,14,2</string>
+				<key>device_type</key>
+				<string>System peripheral</string>
+				<key>model</key>
+				<string>Sky Lake-E CHA Registers</string>
+			</dict>
+			<key>PciRoot(0x1)/Pci(0xE,0x3)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@1,14,3</string>
+				<key>device_type</key>
+				<string>System peripheral</string>
+				<key>model</key>
+				<string>Sky Lake-E CHA Registers</string>
+			</dict>
+			<key>PciRoot(0x1)/Pci(0xE,0x4)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@1,14,4</string>
+				<key>device_type</key>
+				<string>System peripheral</string>
+				<key>model</key>
+				<string>Sky Lake-E CHA Registers</string>
+			</dict>
+			<key>PciRoot(0x1)/Pci(0xE,0x5)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@1,14,5</string>
+				<key>device_type</key>
+				<string>System peripheral</string>
+				<key>model</key>
+				<string>Sky Lake-E CHA Registers</string>
+			</dict>
+			<key>PciRoot(0x1)/Pci(0xE,0x6)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@1,14,6</string>
+				<key>device_type</key>
+				<string>System peripheral</string>
+				<key>model</key>
+				<string>Sky Lake-E CHA Registers</string>
+			</dict>
+			<key>PciRoot(0x1)/Pci(0xE,0x7)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@1,14,7</string>
+				<key>device_type</key>
+				<string>System peripheral</string>
+				<key>model</key>
+				<string>Sky Lake-E CHA Registers</string>
+			</dict>
+			<key>PciRoot(0x1)/Pci(0xF,0x0)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@1,15,0</string>
+				<key>device_type</key>
+				<string>System peripheral</string>
+				<key>model</key>
+				<string>Sky Lake-E CHA Registers</string>
+			</dict>
+			<key>PciRoot(0x1)/Pci(0xF,0x1)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@1,15,1</string>
+				<key>device_type</key>
+				<string>System peripheral</string>
+				<key>model</key>
+				<string>Sky Lake-E CHA Registers</string>
+			</dict>
+			<key>PciRoot(0x1)/Pci(0xF,0x2)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@1,15,2</string>
+				<key>device_type</key>
+				<string>System peripheral</string>
+				<key>model</key>
+				<string>Sky Lake-E CHA Registers</string>
+			</dict>
+			<key>PciRoot(0x1)/Pci(0xF,0x3)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@1,15,3</string>
+				<key>device_type</key>
+				<string>System peripheral</string>
+				<key>model</key>
+				<string>Sky Lake-E CHA Registers</string>
+			</dict>
+			<key>PciRoot(0x1)/Pci(0xF,0x4)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@1,15,4</string>
+				<key>device_type</key>
+				<string>System peripheral</string>
+				<key>model</key>
+				<string>Sky Lake-E CHA Registers</string>
+			</dict>
+			<key>PciRoot(0x1)/Pci(0xF,0x5)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@1,15,5</string>
+				<key>device_type</key>
+				<string>System peripheral</string>
+				<key>model</key>
+				<string>Sky Lake-E CHA Registers</string>
+			</dict>
+			<key>PciRoot(0x1)/Pci(0xF,0x6)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@1,15,6</string>
+				<key>device_type</key>
+				<string>System peripheral</string>
+				<key>model</key>
+				<string>Sky Lake-E CHA Registers</string>
+			</dict>
+			<key>PciRoot(0x1)/Pci(0xF,0x7)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@1,15,7</string>
+				<key>device_type</key>
+				<string>System peripheral</string>
+				<key>model</key>
+				<string>Sky Lake-E CHA Registers</string>
+			</dict>
+			<key>PciRoot(0x2)/Pci(0x0,0x0)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@2,0,0</string>
+				<key>device_type</key>
+				<string>PCI bridge</string>
+				<key>model</key>
+				<string>Sky Lake-E PCI Express Root Port A</string>
+			</dict>
+			<key>PciRoot(0x2)/Pci(0x0,0x0)/Pci(0x0,0x0)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@2,0,0/0,0</string>
+				<key>device_type</key>
+				<string>PCI bridge</string>
+				<key>model</key>
+				<string>Navi 10 XL Upstream Port of PCI Express Switch</string>
+			</dict>
+			<key>PciRoot(0x2)/Pci(0x0,0x0)/Pci(0x0,0x0)/Pci(0x0,0x0)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@2,0,0/0,0/0,0</string>
+				<key>device_type</key>
+				<string>PCI bridge</string>
+				<key>model</key>
+				<string>Navi 10 XL Downstream Port of PCI Express Switch</string>
+			</dict>
+			<key>PciRoot(0x2)/Pci(0x0,0x0)/Pci(0x0,0x0)/Pci(0x0,0x0)/Pci(0x0,0x0)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@2,0,0/0,0/0,0/0,0</string>
+				<key>device_type</key>
+				<string>VGA compatible controller</string>
+				<key>model</key>
+				<string>Navi 21 GL-XL [Radeon PRO W6800]</string>
+			</dict>
+			<key>PciRoot(0x2)/Pci(0x0,0x0)/Pci(0x0,0x0)/Pci(0x0,0x0)/Pci(0x0,0x1)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@2,0,0/0,0/0,0/0,1</string>
+				<key>device_type</key>
+				<string>Audio device</string>
+				<key>model</key>
+				<string>Navi 21/23 HDMI/DP Audio Controller</string>
+			</dict>
+			<key>PciRoot(0x2)/Pci(0x5,0x0)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@2,5,0</string>
+				<key>device_type</key>
+				<string>System peripheral</string>
+				<key>model</key>
+				<string>Sky Lake-E VT-d</string>
+			</dict>
+			<key>PciRoot(0x2)/Pci(0x5,0x2)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@2,5,2</string>
+				<key>device_type</key>
+				<string>System peripheral</string>
+				<key>model</key>
+				<string>Sky Lake-E RAS Configuration Registers</string>
+			</dict>
+			<key>PciRoot(0x2)/Pci(0x5,0x4)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@2,5,4</string>
+				<key>device_type</key>
+				<string>PIC</string>
+				<key>model</key>
+				<string>Sky Lake-E IOxAPIC Configuration Registers</string>
+			</dict>
+			<key>PciRoot(0x2)/Pci(0x8,0x0)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@2,8,0</string>
+				<key>device_type</key>
+				<string>System peripheral</string>
+				<key>model</key>
+				<string>Sky Lake-E Integrated Memory Controller</string>
+			</dict>
+			<key>PciRoot(0x2)/Pci(0x9,0x0)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@2,9,0</string>
+				<key>device_type</key>
+				<string>System peripheral</string>
+				<key>model</key>
+				<string>Sky Lake-E Integrated Memory Controller</string>
+			</dict>
+			<key>PciRoot(0x2)/Pci(0xA,0x0)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@2,10,0</string>
+				<key>device_type</key>
+				<string>System peripheral</string>
+				<key>model</key>
+				<string>Sky Lake-E Integrated Memory Controller</string>
+			</dict>
+			<key>PciRoot(0x2)/Pci(0xA,0x1)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@2,10,1</string>
+				<key>device_type</key>
+				<string>System peripheral</string>
+				<key>model</key>
+				<string>Sky Lake-E Integrated Memory Controller</string>
+			</dict>
+			<key>PciRoot(0x2)/Pci(0xA,0x2)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@2,10,2</string>
+				<key>device_type</key>
+				<string>System peripheral</string>
+				<key>model</key>
+				<string>Sky Lake-E Integrated Memory Controller</string>
+			</dict>
+			<key>PciRoot(0x2)/Pci(0xA,0x3)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@2,10,3</string>
+				<key>device_type</key>
+				<string>System peripheral</string>
+				<key>model</key>
+				<string>Sky Lake-E Integrated Memory Controller</string>
+			</dict>
+			<key>PciRoot(0x2)/Pci(0xA,0x4)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@2,10,4</string>
+				<key>device_type</key>
+				<string>System peripheral</string>
+				<key>model</key>
+				<string>Sky Lake-E Integrated Memory Controller</string>
+			</dict>
+			<key>PciRoot(0x2)/Pci(0xA,0x5)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@2,10,5</string>
+				<key>device_type</key>
+				<string>System peripheral</string>
+				<key>model</key>
+				<string>Sky Lake-E LM Channel 1</string>
+			</dict>
+			<key>PciRoot(0x2)/Pci(0xA,0x6)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@2,10,6</string>
+				<key>device_type</key>
+				<string>System peripheral</string>
+				<key>model</key>
+				<string>Sky Lake-E LMS Channel 1</string>
+			</dict>
+			<key>PciRoot(0x2)/Pci(0xA,0x7)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@2,10,7</string>
+				<key>device_type</key>
+				<string>System peripheral</string>
+				<key>model</key>
+				<string>Sky Lake-E LMDP Channel 1</string>
+			</dict>
+			<key>PciRoot(0x2)/Pci(0xB,0x0)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@2,11,0</string>
+				<key>device_type</key>
+				<string>System peripheral</string>
+				<key>model</key>
+				<string>Sky Lake-E DECS Channel 2</string>
+			</dict>
+			<key>PciRoot(0x2)/Pci(0xB,0x1)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@2,11,1</string>
+				<key>device_type</key>
+				<string>System peripheral</string>
+				<key>model</key>
+				<string>Sky Lake-E LM Channel 2</string>
+			</dict>
+			<key>PciRoot(0x2)/Pci(0xB,0x2)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@2,11,2</string>
+				<key>device_type</key>
+				<string>System peripheral</string>
+				<key>model</key>
+				<string>Sky Lake-E LMS Channel 2</string>
+			</dict>
+			<key>PciRoot(0x2)/Pci(0xB,0x3)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@2,11,3</string>
+				<key>device_type</key>
+				<string>System peripheral</string>
+				<key>model</key>
+				<string>Sky Lake-E LMDP Channel 2</string>
+			</dict>
+			<key>PciRoot(0x2)/Pci(0xC,0x0)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@2,12,0</string>
+				<key>device_type</key>
+				<string>System peripheral</string>
+				<key>model</key>
+				<string>Sky Lake-E Integrated Memory Controller</string>
+			</dict>
+			<key>PciRoot(0x2)/Pci(0xC,0x1)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@2,12,1</string>
+				<key>device_type</key>
+				<string>System peripheral</string>
+				<key>model</key>
+				<string>Sky Lake-E Integrated Memory Controller</string>
+			</dict>
+			<key>PciRoot(0x2)/Pci(0xC,0x2)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@2,12,2</string>
+				<key>device_type</key>
+				<string>System peripheral</string>
+				<key>model</key>
+				<string>Sky Lake-E Integrated Memory Controller</string>
+			</dict>
+			<key>PciRoot(0x2)/Pci(0xC,0x3)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@2,12,3</string>
+				<key>device_type</key>
+				<string>System peripheral</string>
+				<key>model</key>
+				<string>Sky Lake-E Integrated Memory Controller</string>
+			</dict>
+			<key>PciRoot(0x2)/Pci(0xC,0x4)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@2,12,4</string>
+				<key>device_type</key>
+				<string>System peripheral</string>
+				<key>model</key>
+				<string>Sky Lake-E Integrated Memory Controller</string>
+			</dict>
+			<key>PciRoot(0x2)/Pci(0xC,0x5)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@2,12,5</string>
+				<key>device_type</key>
+				<string>System peripheral</string>
+				<key>model</key>
+				<string>Sky Lake-E LM Channel 1</string>
+			</dict>
+			<key>PciRoot(0x2)/Pci(0xC,0x6)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@2,12,6</string>
+				<key>device_type</key>
+				<string>System peripheral</string>
+				<key>model</key>
+				<string>Sky Lake-E LMS Channel 1</string>
+			</dict>
+			<key>PciRoot(0x2)/Pci(0xC,0x7)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@2,12,7</string>
+				<key>device_type</key>
+				<string>System peripheral</string>
+				<key>model</key>
+				<string>Sky Lake-E LMDP Channel 1</string>
+			</dict>
+			<key>PciRoot(0x2)/Pci(0xD,0x0)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@2,13,0</string>
+				<key>device_type</key>
+				<string>System peripheral</string>
+				<key>model</key>
+				<string>Sky Lake-E DECS Channel 2</string>
+			</dict>
+			<key>PciRoot(0x2)/Pci(0xD,0x1)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@2,13,1</string>
+				<key>device_type</key>
+				<string>System peripheral</string>
+				<key>model</key>
+				<string>Sky Lake-E LM Channel 2</string>
+			</dict>
+			<key>PciRoot(0x2)/Pci(0xD,0x2)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@2,13,2</string>
+				<key>device_type</key>
+				<string>System peripheral</string>
+				<key>model</key>
+				<string>Sky Lake-E LMS Channel 2</string>
+			</dict>
+			<key>PciRoot(0x2)/Pci(0xD,0x3)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@2,13,3</string>
+				<key>device_type</key>
+				<string>System peripheral</string>
+				<key>model</key>
+				<string>Sky Lake-E LMDP Channel 2</string>
+			</dict>
+			<key>PciRoot(0x3)/Pci(0x12,0x0)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@3,18,0</string>
+				<key>device_type</key>
+				<string>Performance counters</string>
+				<key>model</key>
+				<string>Sky Lake-E M3KTI Registers</string>
+			</dict>
+			<key>PciRoot(0x3)/Pci(0x12,0x1)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@3,18,1</string>
+				<key>device_type</key>
+				<string>Performance counters</string>
+				<key>model</key>
+				<string>Sky Lake-E M3KTI Registers</string>
+			</dict>
+			<key>PciRoot(0x3)/Pci(0x12,0x2)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@3,18,2</string>
+				<key>device_type</key>
+				<string>System peripheral</string>
+				<key>model</key>
+				<string>Sky Lake-E M3KTI Registers</string>
+			</dict>
+			<key>PciRoot(0x3)/Pci(0x15,0x0)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@3,21,0</string>
+				<key>device_type</key>
+				<string>System peripheral</string>
+				<key>model</key>
+				<string>Sky Lake-E M2PCI Registers</string>
+			</dict>
+			<key>PciRoot(0x3)/Pci(0x15,0x1)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@3,21,1</string>
+				<key>device_type</key>
+				<string>Performance counters</string>
+				<key>model</key>
+				<string>Sky Lake-E DDRIO Registers</string>
+			</dict>
+			<key>PciRoot(0x3)/Pci(0x16,0x0)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@3,22,0</string>
+				<key>device_type</key>
+				<string>System peripheral</string>
+				<key>model</key>
+				<string>Sky Lake-E M2PCI Registers</string>
+			</dict>
+			<key>PciRoot(0x3)/Pci(0x16,0x1)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@3,22,1</string>
+				<key>device_type</key>
+				<string>Performance counters</string>
+				<key>model</key>
+				<string>Sky Lake-E DDRIO Registers</string>
+			</dict>
+			<key>PciRoot(0x3)/Pci(0x16,0x4)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@3,22,4</string>
+				<key>device_type</key>
+				<string>System peripheral</string>
+				<key>model</key>
+				<string>Sky Lake-E M2PCI Registers</string>
+			</dict>
+			<key>PciRoot(0x3)/Pci(0x16,0x5)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@3,22,5</string>
+				<key>device_type</key>
+				<string>Performance counters</string>
+				<key>model</key>
+				<string>Sky Lake-E DDRIO Registers</string>
+			</dict>
+			<key>PciRoot(0x3)/Pci(0x17,0x0)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@3,23,0</string>
+				<key>device_type</key>
+				<string>System peripheral</string>
+				<key>model</key>
+				<string>Sky Lake-E M2PCI Registers</string>
+			</dict>
+			<key>PciRoot(0x3)/Pci(0x17,0x1)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@3,23,1</string>
+				<key>device_type</key>
+				<string>Performance counters</string>
+				<key>model</key>
+				<string>Sky Lake-E DDRIO Registers</string>
+			</dict>
+			<key>PciRoot(0x3)/Pci(0x2,0x0)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@3,2,0</string>
+				<key>device_type</key>
+				<string>PCI bridge</string>
+				<key>model</key>
+				<string>Sky Lake-E PCI Express Root Port C</string>
+			</dict>
+			<key>PciRoot(0x3)/Pci(0x2,0x0)/Pci(0x0,0x0)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@3,2,0/0,0</string>
+				<key>device_type</key>
+				<string>PCI bridge</string>
+				<key>model</key>
+				<string>ASM2824 PCIe Gen3 Packet Switch</string>
+			</dict>
+			<key>PciRoot(0x3)/Pci(0x2,0x0)/Pci(0x0,0x0)/Pci(0x0,0x0)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@3,2,0/0,0/0,0</string>
+				<key>device_type</key>
+				<string>PCI bridge</string>
+				<key>model</key>
+				<string>ASM2824 PCIe Gen3 Packet Switch</string>
+			</dict>
+			<key>PciRoot(0x3)/Pci(0x2,0x0)/Pci(0x0,0x0)/Pci(0x0,0x0)/Pci(0x0,0x0)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@3,2,0/0,0/0,0/0,0</string>
+				<key>device_type</key>
+				<string>Non-Volatile memory controller</string>
+				<key>model</key>
+				<string>E12 NVMe Controller</string>
+			</dict>
+			<key>PciRoot(0x3)/Pci(0x2,0x0)/Pci(0x0,0x0)/Pci(0x4,0x0)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@3,2,0/0,0/4,0</string>
+				<key>device_type</key>
+				<string>PCI bridge</string>
+				<key>model</key>
+				<string>ASM2824 PCIe Gen3 Packet Switch</string>
+			</dict>
+			<key>PciRoot(0x3)/Pci(0x2,0x0)/Pci(0x0,0x0)/Pci(0x4,0x0)/Pci(0x0,0x0)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@3,2,0/0,0/4,0/0,0</string>
+				<key>device_type</key>
+				<string>Non-Volatile memory controller</string>
+				<key>model</key>
+				<string>E12 NVMe Controller</string>
+			</dict>
+			<key>PciRoot(0x3)/Pci(0x2,0x0)/Pci(0x0,0x0)/Pci(0x8,0x0)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@3,2,0/0,0/8,0</string>
+				<key>device_type</key>
+				<string>PCI bridge</string>
+				<key>model</key>
+				<string>ASM2824 PCIe Gen3 Packet Switch</string>
+			</dict>
+			<key>PciRoot(0x3)/Pci(0x2,0x0)/Pci(0x0,0x0)/Pci(0x8,0x0)/Pci(0x0,0x0)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@3,2,0/0,0/8,0/0,0</string>
+				<key>device_type</key>
+				<string>Non-Volatile memory controller</string>
+				<key>model</key>
+				<string>E12 NVMe Controller</string>
+			</dict>
+			<key>PciRoot(0x3)/Pci(0x2,0x0)/Pci(0x0,0x0)/Pci(0xC,0x0)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@3,2,0/0,0/12,0</string>
+				<key>device_type</key>
+				<string>PCI bridge</string>
+				<key>model</key>
+				<string>ASM2824 PCIe Gen3 Packet Switch</string>
+			</dict>
+			<key>PciRoot(0x3)/Pci(0x2,0x0)/Pci(0x0,0x0)/Pci(0xC,0x0)/Pci(0x0,0x0)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@3,2,0/0,0/12,0/0,0</string>
+				<key>device_type</key>
+				<string>Non-Volatile memory controller</string>
+				<key>model</key>
+				<string>E12 NVMe Controller</string>
+			</dict>
+			<key>PciRoot(0x3)/Pci(0x5,0x0)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@3,5,0</string>
+				<key>device_type</key>
+				<string>System peripheral</string>
+				<key>model</key>
+				<string>Sky Lake-E VT-d</string>
+			</dict>
+			<key>PciRoot(0x3)/Pci(0x5,0x2)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@3,5,2</string>
+				<key>device_type</key>
+				<string>System peripheral</string>
+				<key>model</key>
+				<string>Sky Lake-E RAS Configuration Registers</string>
+			</dict>
+			<key>PciRoot(0x3)/Pci(0x5,0x4)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@3,5,4</string>
+				<key>device_type</key>
+				<string>PIC</string>
+				<key>model</key>
+				<string>Sky Lake-E IOxAPIC Configuration Registers</string>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>
