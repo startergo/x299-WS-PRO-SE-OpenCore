@@ -126,6 +126,14 @@
 				<key>Path</key>
 				<string>SSDT-X299-SAT.aml</string>
 			</dict>
+			<dict>
+				<key>Comment</key>
+				<string></string>
+				<key>Enabled</key>
+				<true/>
+				<key>Path</key>
+				<string>SSDT-X299-XHCI.aml</string>
+			</dict>
 		</array>
 		<key>Delete</key>
 		<array/>
