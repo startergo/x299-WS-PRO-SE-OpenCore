@@ -6,6 +6,8 @@
 
 ### Hardware:
 
+ ![](/images/Motherboard_layout.png)
+
 <details>
   <summary>Wifi</summary>
   
