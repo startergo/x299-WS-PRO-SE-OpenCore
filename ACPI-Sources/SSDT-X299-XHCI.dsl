@@ -5,13 +5,13 @@
  * 
  * Disassembling to symbolic ASL+ operators
  *
- * Disassembly of iASLYg7tJp.aml, Thu Nov 24 16:28:18 2022
+ * Disassembly of iASLluJZob.aml, Tue Nov 29 14:12:58 2022
  *
  * Original Table Header:
  *     Signature        "SSDT"
- *     Length           0x00000204 (516)
+ *     Length           0x00000195 (405)
  *     Revision         0x01
- *     Checksum         0x18
+ *     Checksum         0xF2
  *     OEM ID           "KGP"
  *     OEM Table ID     "X299XHCI"
  *     OEM Revision     0x00000000 (0)
@@ -36,7 +36,7 @@ DefinitionBlock ("", "SSDT", 1, "KGP", "X299XHCI", 0x00000000)
                 })
             }
 
-            Local0 = Package (0x1B)
+            Local0 = Package (0x13)
                 {
                     "AAPL,slot-name", 
                     Buffer (0x09)
@@ -68,14 +68,6 @@ DefinitionBlock ("", "SSDT", 1, "KGP", "X299XHCI", 0x00000000)
                         "ASMedia ASM1074 / Intel X299 Series Chipset USB 3.0"
                     }, 
 
-                    "AAPL,current-available", 
-                    0x0834, 
-                    "AAPL,current-extra", 
-                    0x0A8C, 
-                    "AAPL,current-in-sleep", 
-                    0x0A8C, 
-                    "AAPL,max-port-current-in-sleep", 
-                    0x0834, 
                     "AAPL,device-internal", 
                     Zero, 
                     "AAPL,clock-id", 
