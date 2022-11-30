@@ -5,13 +5,13 @@
  * 
  * Disassembling to symbolic ASL+ operators
  *
- * Disassembly of iASLamUfRa.aml, Tue Nov 29 15:12:32 2022
+ * Disassembly of iASLHKAeab.aml, Wed Nov 30 08:51:57 2022
  *
  * Original Table Header:
  *     Signature        "SSDT"
- *     Length           0x000006A1 (1697)
+ *     Length           0x00000632 (1586)
  *     Revision         0x01
- *     Checksum         0x5D
+ *     Checksum         0x3C
  *     OEM ID           "KGP"
  *     OEM Table ID     "X299XHC"
  *     OEM Revision     0x00000000 (0)
@@ -222,7 +222,7 @@ DefinitionBlock ("", "SSDT", 1, "KGP", "X299XHC", 0x00000000)
                     })
                 }
 
-                Local0 = Package (0x1B)
+                Local0 = Package (0x13)
                     {
                         "AAPL,slot-name", 
                         Buffer (0x09)
@@ -254,14 +254,6 @@ DefinitionBlock ("", "SSDT", 1, "KGP", "X299XHC", 0x00000000)
                             "ASMedia ASM3142 #1 1x USB 3.1 Type-C Internal "
                         }, 
 
-                        "AAPL,current-available", 
-                        0x0834, 
-                        "AAPL,current-extra", 
-                        0x0A8C, 
-                        "AAPL,current-in-sleep", 
-                        0x0A8C, 
-                        "AAPL,max-port-current-in-sleep", 
-                        0x0834, 
                         "AAPL,device-internal", 
                         Zero, 
                         "AAPL,clock-id", 
